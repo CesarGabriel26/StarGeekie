@@ -1,0 +1,115 @@
+:root{
+    
+    /* cores padrão */
+    --Primaria: rgb(0, 0, 0);
+    --Segundaria: rgb(41, 41, 41);
+    --Terciaria:rgb(57, 57, 57);
+    --Quaternaria:rgb(104, 104, 104);
+
+    /* Gradiantes */
+    --Background: linear-gradient(to top, var(--Primaria) , var(--Segundaria));
+    --Background2: url('https://images4.alphacoders.com/978/978847.jpg'),
+    url('https://images4.alphacoders.com/978/978847.jpg'),
+    url('https://images4.alphacoders.com/978/978847.jpg'),
+    url('https://images4.alphacoders.com/978/978847.jpg');
+
+    /* Cores de texto */
+
+    --Normal: ghostwhite;
+    --Hover: orange;
+
+    /* button radios */
+    --Type1: 0px  20px  0px  20px;
+    --Type2: 20px  20px  00px  0px;
+
+}
+
+/* Stiloes padrão */
+
+/* botão */
+.Normal.Button {
+    width: fit-content;
+    height: 25px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: var(--Terciaria);
+    border: .5px solid var(--Quaternaria);
+    color: var(--Normal);
+
+    margin-right: 30px;
+
+    border-radius:var(--Type1);
+
+
+}
+
+.Txt.select {
+    color: gold;
+}
+
+.Register.button{
+    width: fit-content;
+    height: 25px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+    border: .5px solid var(--Quaternaria);
+    color: var(--Normal);
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.Nav.Button {
+    width: fit-content;
+    height: 25px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 25px;
+
+    text-align: center;
+    text-decoration: none;
+    border-bottom: .5px solid var(--Quaternaria);
+    color: var(--Normal);
+
+    margin-right: 30px;
+
+
+}
+
+.Normal.Button:hover {
+    background-color: var(--Quaternaria);
+    border-color: var(--Terciaria);
+    color: var(--Hover);
+}
+
+/* User Icon */
+.Login {
+    font-size: 60px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+/* text */
+
+.Txt {
+    color: var(--Normal);
+}
+.Txt:hover {
+    color: var(--Hover);
+}
+

@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ScrollContainer {
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+    height: fit-content;
+
+
+    margin-left: 5px;
+}
+
+.Item {
+    height: 350px;
+
+    min-height: 350px;
+    min-width: 250px;
+
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.Item img {
+    width: 250px;
+    height: 350px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+
+    padding-left: 5px;
+
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--Quaternaria);
+    border-left: 2px solid var(--Quaternaria);
+    color: var(--Normal);
+}
+
+input::placeholder {
+    color: var(--Normal);
+}
+
+.pesquisa {
+    margin-top: 2%;
+    font-size: 30px;
+    display: flex;
+}
+
+.Item {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--Normal);
+}
+
+.Item:hover {
+    text-decoration: none;
+    color: var(--Hover);
+}
+
+.Item .text-block {
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: -60px;
+    background: rgba(0, 0, 0, 0.556);
+    font-size: 15px;
+
+    height: fit-content;
+}
+
+.Item .text-block .animeTitle {
+    text-align: center;
+    width: 250px;
+    overflow-wrap: normal;
+}

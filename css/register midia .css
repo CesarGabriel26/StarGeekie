@@ -1,0 +1,66 @@
+
+Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.acept {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterBox {
+    padding: 20px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: fit-content;
+    height: fit-content;
+
+    background: var(--Terciaria);
+    margin-bottom: 15%;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 100%;
+
+    border: none;
+    border-bottom: 2px solid var(--Primaria);;
+    margin-top: 5px;
+
+    background-color: var(--Segundaria);
+    color: var(--Normal);
+
+    outline: none;
+
+    padding-left: 5px;
+}
+
+input:checked {color: var(--Hover);}
+input::placeholder {
+    color: var(--Normal);
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.language {
+    margin-top: 10px;
+}
+.language input {
+    margin-left: 8px;
+}

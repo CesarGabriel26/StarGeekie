@@ -1,0 +1,45 @@
+.LoginBox {
+    background: var(--Terciaria);
+
+    padding: 21px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+
+    margin: auto;
+    margin-top: 10%;
+
+    border-radius: 10px;
+}
+
+.LoginBox .botoes {
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input , input::placeholder{
+    border: none;
+    border-bottom: 1px solid var(--Primaria);
+
+    height: 40px;
+
+    background: var(--Quaternaria);
+    color: var(--Normal);
+
+}
+
+.passwordINP {
+    margin-top: 30px;
+}
+
+button {
+    color: beige;
+}

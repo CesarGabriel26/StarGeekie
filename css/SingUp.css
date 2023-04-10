@@ -1,0 +1,9 @@
+.acept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acept input[type="checkbox"]:checked {
+    margin-right: 5px;
+}

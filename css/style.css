@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--Background);
+    color: var(--Normal);
+}
+
+/* Navegação */
+header {
+    width: 100%;
+    height: 100px;
+    
+    background: var(--Segundaria);
+
+    color: var(--Normal);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    width: 100px;    
+    height: 100px;
+    margin-left: 20px;
+}
+
+header nav {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* img slider */
+
+.Slider {
+    height: 70%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
+
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.429)),
+    url('https://images4.alphacoders.com/978/978847.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+.Slider .Slider-Dots {
+    font-size: 25px;
+}
+.Slider .Slider-Dots ion-icon {
+    cursor: pointer;
+}
+
+/* Cards */
+.Card {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+
+    font-size: 30px;
+}
+
+.Card .Texto {
+    width: 100%;
+    margin-left: 20px;
+}
+.Card img {
+    max-width: 300px;
+    
+}
+
+
+/* leftnav */
+
+.leftnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    
+    background: var(--Segundaria);
+
+    color: var(--Normal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.parceiros {
+    margin-left: 30px;
+}
+
+footer ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
