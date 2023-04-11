@@ -27,7 +27,7 @@
 /* Stiloes padrão */
 
 /* botão */
-.Normal.Button {
+.Button.Normal {
     width: fit-content;
     height: 25px;
 
@@ -52,7 +52,7 @@
     color: gold;
 }
 
-.Register.button{
+.button.Register{
     width: fit-content;
     height: 25px;
 
@@ -72,7 +72,7 @@
 
 }
 
-.Nav.Button {
+.Button.Nav {
     width: fit-content;
     height: 25px;
 
@@ -111,5 +111,22 @@
 }
 .Txt:hover {
     color: var(--Hover);
+}
+
+@media (width <= 1330px) {
+    .normalNav {
+        display: none;
+    }
+    .Short {
+        font-size: 58px;
+        display: block;
+        margin-right: 25px;
+    }
+    .pesquisa {
+        display: none;
+    }
+    .leftnav {
+        display:  none;
+    }
 }
 

@@ -7,6 +7,7 @@
     display: flex;
     overflow-x: scroll;
     height: fit-content;
+    width: auto;
 
 
     margin-left: 5px;
@@ -18,10 +19,19 @@
     min-height: 350px;
     min-width: 250px;
 
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     margin-bottom: 10px;
     margin-right: 20px;
+
+    transform: scale(1);
+    transition: .5s;
 }
+
+.Item:hover {
+    transform: scale(1.15);
+}
+
 
 .Item img {
     width: 250px;
@@ -80,4 +90,40 @@ input::placeholder {
     text-align: center;
     width: 250px;
     overflow-wrap: normal;
+}
+
+
+/* reponsividade */
+.normal {
+    display: flex;
+}
+.Short {
+    font-size: 50px;
+    display: none;
+}
+
+.Short:hover {
+    color: var(--Hover);
+}
+
+.Short .Options .Button .icon {display: none;}
+.Short .Options .Button {font-size: 20px;margin-right: 7px;}
+.Short .Options {
+    position: absolute;
+    z-index: 9999;
+    background: var(--Terciaria);
+    border-radius: 5px;
+
+    right: 10px;
+
+    width: 170px;
+    padding: 5px;
+    height: 0px;
+    opacity: 0;
+
+    transition: .5s;
+}
+.Short:hover .Options{
+    height: 130px;
+    opacity: 1;
 }
