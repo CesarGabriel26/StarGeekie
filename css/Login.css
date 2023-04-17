@@ -52,3 +52,10 @@ input , input::placeholder{
 button {
     color: beige;
 }
+
+
+@media (width <= 1482px) {
+    .LoginBox {
+        width: 80%;
+    }
+}

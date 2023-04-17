@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html , body {
+html,
+body {
     margin: 0;
     min-height: 100%;
 }
@@ -19,7 +20,7 @@ header {
 
     width: 100%;
     height: 100px;
-    
+
     background: var(--Segundaria);
 
     color: var(--Normal);
@@ -31,7 +32,7 @@ header {
 }
 
 .Logo {
-    width: 100px;    
+    width: 100px;
     height: 100px;
     margin-left: 20px;
 }
@@ -56,19 +57,21 @@ header nav {
     margin-top: 20px;
 
     background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.429)),
-    url('https://images4.alphacoders.com/978/978847.jpg');
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.429)),
+        url('https://images4.alphacoders.com/978/978847.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
 
     display: flex;
-    align-items:end;
+    align-items: end;
     justify-content: center;
 }
+
 .Slider .Slider-Dots {
     font-size: 25px;
 }
+
 .Slider .Slider-Dots ion-icon {
     cursor: pointer;
 }
@@ -87,9 +90,10 @@ header nav {
     width: 100%;
     margin-left: 20px;
 }
+
 .Card img {
     max-width: 300px;
-    
+
 }
 
 
@@ -105,7 +109,7 @@ header nav {
 footer {
     width: auto;
     height: 200px;
-    
+
     background: var(--Segundaria);
 
     color: var(--Normal);
@@ -122,4 +126,40 @@ footer {
 footer ul {
     margin-left: 20px;
     list-style-type: none;
+}
+
+.img2 {
+    display: none;
+}
+
+@media (width <=1482px) {
+    .Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card .Texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Card img.abaixo {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        max-width: 300px;
+    }
+
+}
+
+@media (width <=414px) {
+    .img3 {display: block;}
+    .img4 {display: none;}
 }

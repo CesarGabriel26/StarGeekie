@@ -101,13 +101,16 @@ input::placeholder {
     font-size: 50px;
     display: none;
 }
+.Short-icon {
+    font-size: 50px;
+}
 
 .Short:hover {
     color: var(--Hover);
 }
 
 .Short .Options .Button .icon {display: none;}
-.Short .Options .Button {font-size: 20px;margin-right: 7px;}
+.Short .Options .Button {font-size: 20px;margin-right: 7px; width: 100%; display: block;}
 .Short .Options {
     position: absolute;
     z-index: 9999;
@@ -116,14 +119,14 @@ input::placeholder {
 
     right: 10px;
 
-    width: 170px;
+    width: 190px;
     padding: 5px;
     height: 0px;
     opacity: 0;
-
+    overflow: hidden;
     transition: .5s;
 }
 .Short:hover .Options{
-    height: 130px;
+    height: 180px;
     opacity: 1;
 }

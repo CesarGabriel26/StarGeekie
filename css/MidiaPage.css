@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1vw;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
     color: var(--Normal);
 }
 
-main{
+main {
     width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
@@ -23,12 +22,38 @@ img {
     width: 300px;
 }
 
-.right {margin-left: 20px;}
-.top {display: flex; width: 100%;}
-.interaction{margin-top: 10px; display: flex; align-items: center;}
-.interaction ion-icon {font-size: 25px; margin-left: 10px; margin-right: 10px;}
-.Container.icons {cursor: pointer;}
-.interaction .Container.icons:hover {color: var(--Hover);}
+.right {
+    margin-left: 20px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+}
+
+.interaction {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.interaction h3 {
+    font-size: 15.5px;
+}
+.interaction ion-icon {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Container.icons {
+    cursor: pointer;
+}
+
+.interaction .Container.icons:hover {
+    color: var(--Hover);
+}
 
 
 main h2 {
@@ -37,18 +62,19 @@ main h2 {
     text-align: center;
     background-color: var(--Terciaria);
 }
-.bottom {    
+
+.bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.container{
-    display: flex; 
-    align-items: center; 
+.container {
+    display: flex;
+    align-items: center;
 
-    border-bottom: 2px solid var(--Quaternaria); 
+    border-bottom: 2px solid var(--Quaternaria);
     width: 100%;
     margin-top: 10px;
     padding-bottom: 5px;
@@ -59,6 +85,7 @@ main h2 {
     list-style-type: none;
     margin-left: 10px;
 }
+
 .container ul li {
     font-size: 12px;
     background: var(--Terciaria);
@@ -67,23 +94,51 @@ main h2 {
     cursor: pointer;
     margin-left: 15px;
 }
+
 .container ul li:hover {
     color: var(--Hover);
 }
 
-.container.Sinopse ul li{
+.container.Sinopse ul li {
     font-size: 15px;
 }
 
 .bottom .Title {
     font-size: 30px;
 }
-.bottom .Episodeso {width: 100%; margin-top: 10px;}
-.bottom .Episodeso .itemEp{
+
+.bottom .Episodeso {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bottom .Episodeso .itemEp {
     background-color: var(--Terciaria);
     width: 100%;
     padding: 10px;
     cursor: pointer;
 }
-.bottom .Episodeso .itemEp:hover{color: var(--Hover);}
 
+.bottom .Episodeso .itemEp:hover {
+    color: var(--Hover);
+}
+
+@media (width <=1482px) {
+    
+    .pesquisa {display: none;}
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .interaction ion-icon {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .interaction h3 {
+        font-size: 12px;
+    }
+    
+}

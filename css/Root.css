@@ -112,7 +112,7 @@
     color: var(--Hover);
 }
 
-@media (width <= 1330px) {
+@media (width <= 1482px) {
     .normalNav {
         display: none;
     }
