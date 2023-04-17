@@ -38,7 +38,12 @@ input , input::placeholder{
     background: var(--Quaternaria);
     color: var(--Normal);
 
+    padding: 5px;
+
+    border-radius: 20px;
+
 }
+
 
 .passwordINP {
     margin-top: 30px;
