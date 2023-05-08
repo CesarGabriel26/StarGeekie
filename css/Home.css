@@ -6,11 +6,31 @@
     margin-top: 30px;
     display: flex;
     overflow-x: scroll;
+    overflow-y: hidden;
     height: fit-content;
     width: auto;
 
+    user-select: none;
+
 
     margin-left: 5px;
+}
+
+.container-main {
+    margin-top: 20px;
+}
+.container-main h2 {font-size: 30px; display: flex; align-items: center; justify-content: center;}
+
+.container-main h2::after ,
+.container-main h2::before {
+    display: flex;
+    background: var(--Quaternaria);
+    margin: 0 10px;
+    content: "";
+    height: 1px;
+    line-height: 0;
+
+    width: 40%;
 }
 
 .Item {
@@ -129,4 +149,11 @@ input::placeholder {
 .Short:hover .Options{
     height: 180px;
     opacity: 1;
+}
+
+@media (width <= 1482px) {
+    .container-main h2::after ,
+    .container-main h2::before {
+        width: 30%;
+    }
 }
