@@ -14,17 +14,3 @@
 </div>
 
 <hr>
-
-<div>
-  <h2>Ferramentas externas</h2>
-  <div>
-    <p>API de banco de dados</p>
-    <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
-  </div>
-</div>
-
-<hr>
-
-<div>
-  <h2>Funcionalidade</h2>
-</div>
