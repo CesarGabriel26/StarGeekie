@@ -1,3 +1,30 @@
-# StarGeekie
+<div>
+  <h1>StarGeekie</h1>
+  <p>StarGeekie é um site de streaming que desponibiliza Series, Filmes, Animes, Jgos e Mangas</p>
+  <br>
+  <p>Statos: Completo</p>
+  <p>Desenvolvido como projeto do curso senai 2023</p>
+</div>
 
-git remote add origin https://github.com/Project-Coisas/Baixarmamoriaram.git
+<div>
+  <h2>Linguagens</h2>
+  <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+</div>
+
+<hr>
+
+<div>
+  <h2>Ferramentas externas</h2>
+  <div>
+    <p>API de banco de dados</p>
+    <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <h2>Funcionalidade</h2>
+</div>
